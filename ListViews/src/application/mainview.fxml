@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="289.0" prefWidth="528.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.MainViewController">
+   <children>
+      <ListView fx:id="listview_choice" layoutX="14.0" layoutY="14.0" prefHeight="262.0" prefWidth="241.0" AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <ListView fx:id="listview_selected" layoutX="273.0" layoutY="14.0" prefHeight="262.0" prefWidth="241.0" AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="14.0" />
+   </children>
+</AnchorPane>
